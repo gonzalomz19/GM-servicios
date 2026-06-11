@@ -81,7 +81,13 @@ nav{
  border: none;
 }
 
-
+textarea.formulario_input{
+    width: 100%;
+    min-width: 120px;
+    resize: vertical;
+    padding: 10px;
+    box-sizing: border-box;
+}
 
 .formulario_submit{
     background-color: #00bfff;

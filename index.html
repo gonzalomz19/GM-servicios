@@ -168,19 +168,43 @@
         </div>
     </section>    
 
-
-    
-      <div class="formulario">
+    <div class="formulario">
         <h2>Contáctanos</h2>
-         <form>
-        <input class="formulario_input" type="text" placeholder="Nombre">
-        <input class="formulario_input" type="email"  placeholder="Email">
-        <input class="formulario_input" type="tel" placeholder="Telefono">
-        <input class="formulario_input" type="text" placeholder="Escriba su consulta">
-        <input class="formulario_input formulario_submit" type="submit">
+         <form action="https://formspree.io/f/mykadpey" method="POST">
+        <input class="formulario_input"
+                name="nombre"
+                type="text"
+                placeholder="Nombre"
+                required>
+         
+        <input class="formulario_input"
+               type="email"  
+               name="email" 
+               placeholder="Email"
+               required>
+               
+        <input class="formulario_input" 
+               type="tel"
+               name="telefono"
+               placeholder="Telefono"
+               required>
+
+        <input class="formulario_input" 
+               type="text"
+               name="consulta"
+               placeholder="Escriba su consulta"
+               required></textarea>
+
+        <input class="formulario_input formulario_submit" 
+               type="submit"
+               value="Enviar">
+               
      </form>
       </div>
 
+
+    
+      
       <footer>
         <h3>GM Servicios y Productos</h3>
         <p>
